@@ -216,3 +216,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Windows shortcuts
+*.lnk
+
+# Archives
+*.zip
+*.rar
+*.7z
