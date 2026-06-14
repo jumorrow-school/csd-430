@@ -1,0 +1,106 @@
+
+
+<!--
+ Justin Morrow | Date: 06/13/26
+ Professor: David Ostrowski
+ 
+ Assignment: CSD-430 Module 2.2
+ JSP Scriptlets - Create/Display at least 5 records with 3 fields for a Country I visited using Java Code, HTML, CSS
+
+ Class Resources referenced:
+ Functions_1.jsp, Functions_2.jsp, and Variables_1.jsp - Variables_5.jsp
+ 
+ Online Resources:
+ https://costaricaexperts.com/destinations/guanacaste/
+ https://costaricaexperts.com/things-to-do-in-costa-rica/
+-->
+
+<!DOCTYPE html>
+
+<!---
+Use Scriptlets for holding Java code.
+--->
+
+
+<!---
+All HTML tags will be outside of JavaScriptlets.
+--->
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Our Family Costa Rican Trip in 2023 Highlights</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <h1>Fun activities booked at the Hotel Riu in Guanacaste Costa Rica</h1>
+        <p>
+            A destination of incredible natural beauty where you can enjoy idyllic beaches, flatlands and forests that are reminiscent of the landscapes of the African savannah.
+			<br> The locals are very friendly, the food is great, and the nature views are unforgetable.
+        </p>
+
+		<!---
+		Include other display items such as field and recode descriptions, title, and overall data description.
+		--->
+        <h2>Field Descriptions</h2>
+
+		<!---
+		The data will be grouped into topical categories.
+		--->
+        <ul>
+            <li><strong>Activity</strong> - Activity names for unforgetable experiences</li>
+            <li><strong>Category</strong> - Activities listed by categories for finding your next adventure</li>
+            <li><strong>Description</strong> - A detailed description to better describe the activity</li>
+        </ul>
+		
+        <h2>Fun activities to experience while visiting Guanacaste Costa Rica</h2>
+		<!---
+		Data will have a minimum of 5 records with three fields.
+		--->
+        <table>
+            <tr>
+                <th>Activity</th>
+                <th>Category</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>Jet Ski</td>
+                <td>Water Activity</td>
+                <td>Have fun in the water on a high speed Jet Ski with amazing views of the Jungle</td>
+            </tr>
+            <tr>
+                <td>Snorkeling</td>
+                <td>Water Activity</td>
+                <td>Enjoy a relaxing Snorkeling experience view local Marine Life with water temperatures above 80F</td>
+            </tr>
+            <tr>
+                <td>Zip Lining</td>
+                <td>Adventure</td>
+                <td>See the Jungle from an aeral view. Listen for the Howler Monkeys!</td>
+            </tr>
+            <tr>
+                <td>ATV Tour</td>
+                <td>Adventure</td>
+                <td>Take your Jungle tour to a thrill-ride adventure as you go off roading. Slow down to see the Sloths</td>
+            </tr>
+            <tr>
+                <td>Horseback Riding</td>
+                <td>Adventure</td>
+                <td>Slow it down a bit and take an adventours cliff side tour guide led horseback ride overlooking amazing views</td>
+            </tr>
+			<tr>
+                <td>Waterfall Tour</td>
+                <td>Nature</td>
+                <td>Experience the La Fortuna Waterfall tour, take a dip into a hot spring and get a closer tour. Don't touch the Eyelash Pit Viper!</td>
+            </tr>		
+			<tr>
+                <td>Jungle River Boat Tour</td>
+                <td>Nature</td>
+                <td>Take a River Boat Ride down Crocodile infested waters. Keep your arms in the boat at all times!</td>
+            </tr>
+        </table>
+        <br>
+        <h3>Activity Summary</h3>
+        <p>Total Activity Records: 7</p>
+    </body>
+</html>
