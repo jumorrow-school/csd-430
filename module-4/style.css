@@ -1,0 +1,57 @@
+/*
+ Justin Morrow | Date: 06/13/26
+ Professor: David Ostrowski
+ 
+ Assignment: CSD-430 Module 2.2
+ CSS file used for morrow-mod2_2-csd430.jsp
+
+ Online Resources for CSS:
+ https://www.w3schools.com/css/default.asp
+ https://www.w3schools.com/css/css_examples.asp
+ https://www.geeksforgeeks.org/javascript/how-to-include-css-inside-a-javascript-file/
+ https://www.flagcolorcodes.com/costa-rica
+*/
+
+body
+{
+    /*
+    Colors used from Costa Rica Flag: Font Dark Blue (00205B), Background White (FFFFFF)
+    */
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
+    color: #00205B;
+}
+
+h1
+{
+    /*
+    H1 Title Color Red
+    */
+    color: #EF3340;
+}
+
+h2
+{
+    /*
+    H2 Title Color Blue
+    */
+    color: #00205B;
+}
+
+th
+{
+    /*
+    Table Header Red, Cells background White, Header Border color Blue
+    */
+    background-color: #EF3340;
+    color: #FFFFFF;
+    border: 1px solid #00205B;
+}
+
+td
+{
+    /*
+    Table Cell boarder and color Blue
+    */
+    border: 1px solid #00205B;
+}
